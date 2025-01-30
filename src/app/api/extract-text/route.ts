@@ -70,7 +70,7 @@
 // import { extractedTextSchema } from "../../../lib/schema";
 // import { extractedTextSchema } from "@/lib/schema";
 import { google } from "@ai-sdk/google";
-import { streamObject } from "ai";
+// import { streamObject } from "ai";
 import {generateObject} from 'ai';
 import { NextResponse } from "next/server";
 import { z } from 'zod';
