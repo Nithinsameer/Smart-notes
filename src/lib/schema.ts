@@ -2,7 +2,7 @@
 import { z } from "zod";
 
 export const extractedTextSchema = z.object({
-  text: z.string().describe("The extracted text from the image"),
+  text: z.string().describe("The summary text based on the image"),
   keyPoints: z.array(z.string()).optional().describe("Key points extracted from the text"),
   actionItems: z.array(z.string()).optional().describe("Action items extracted from the text")
 });
